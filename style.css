@@ -7,13 +7,13 @@ table{
 .container{
     border: 2px solid black;
     border-radius: 5px;
-    width: 50%;
+    width: 80%;
     position: relative;
-    left: 25%;
+    left: 10%;
     margin-top: 100px;
 }
 h1{
-    font-size: 60px;
+    font-size: 2rem;
     text-decoration: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -28,12 +28,13 @@ table tr{
     flex-direction: row;
     align-items: center;
     text-align: center;
-    font-size: 32px;
+    font-size: 1.5rem;
     padding: 20px;
+    margin: 5%;
 }
 .cards img{
-    width: 200px;
-    border-radius: 30px;
+    max-width: 20vw;
+    border-radius: 20%;
 }
 button{
     padding: 10px;
